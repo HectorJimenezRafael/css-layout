@@ -16,24 +16,38 @@
          /*contenido*/
          width: 100%;
          float: left;
+         color: coral;
+         background-color: greenyellow;
      }
      
      .column-2 {
          /*contenido*/
          width: 50%;
          float: left;
+         color: chocolate;
+         background-color: blue;
      }
      
      .column-3 {
          width: 33.33%;
          float: left;
+         color: brown;
+         background-color: cornflowerblue;
      }
      
      .column-4 {
          width: 25%;
          float: left;
+         color: green;
+         background-color: darkblue;
      }
      
      @media only screen and (max-width: 600px) {
+         .column-3 {
+             width: 100%;
+         }
+         .column-4 {
+             width: 50%;
+         }
          /*reglas*/
      }
